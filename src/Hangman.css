@@ -12,6 +12,9 @@
 }
 
 .Hangman h1 {
+  z-index:1;
+  position: relative;
+  display: block;
   font-size: 4rem;
   font-weight: 100;
   margin-bottom: 0.1em;
@@ -61,6 +64,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1em;
   /* background: #9c27b0; */
   background: #03396c;
   /* box-shadow: 0 6px #7b1fa2; */

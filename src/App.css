@@ -8,3 +8,16 @@
   overflow-x: hidden;
   background-position: center center;
 }
+@media only screen and (max-width: 600px) {
+  .Hangman h1{
+    margin-top:2em;
+  }
+  .Hangman img{
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Hangman img{
+    height: 250px;
+  }
+}
